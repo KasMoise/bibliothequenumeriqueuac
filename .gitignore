@@ -1,0 +1,6 @@
+artifacts_backup/
+requirements_backup.yaml.txt
+uac_app_backup.py
+uac_config_backup.yaml
+uac_config_1.yaml
+.ipynb_checkpoints/

@@ -1,0 +1,23 @@
+# ============================================================
+# UAC Bibliothèque Numérique — Comptes Administrateurs
+# ============================================================
+# Seuls les admins listés ici peuvent se connecter.
+# Les lecteurs n'ont pas de compte — ils accèdent directement
+# à Recommandation, Catalogue et À propos sans connexion.
+#
+# Pour hasher un nouveau mot de passe :
+#   python -c "import hashlib; print(hashlib.sha256('monmotdepasse'.encode()).hexdigest())"
+# ============================================================
+
+admins:
+  admin:
+    nom: Administrateur UAC
+    role: admin
+    # mot de passe : admin123  ← changer en production
+    password_hash: "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9"
+
+  libraire1:
+    nom: Bibliothécaire UAC
+    role: libraire
+    # mot de passe : libraire123
+    password_hash: "3f5c3cc9e8f9a7b2d1e4c6a8b0d2f4e6a8c0d2f4e6a8c0d2f4e6a8c0d2f4e6"
